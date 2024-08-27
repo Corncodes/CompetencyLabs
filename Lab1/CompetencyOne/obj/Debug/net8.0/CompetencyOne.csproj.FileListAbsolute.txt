@@ -1,0 +1,15 @@
+/Users/corn/ProgrammingLogic/CompetencyLabs/Lab1/CompetencyOne/bin/Debug/net8.0/CompetencyOne
+/Users/corn/ProgrammingLogic/CompetencyLabs/Lab1/CompetencyOne/bin/Debug/net8.0/CompetencyOne.deps.json
+/Users/corn/ProgrammingLogic/CompetencyLabs/Lab1/CompetencyOne/bin/Debug/net8.0/CompetencyOne.runtimeconfig.json
+/Users/corn/ProgrammingLogic/CompetencyLabs/Lab1/CompetencyOne/bin/Debug/net8.0/CompetencyOne.dll
+/Users/corn/ProgrammingLogic/CompetencyLabs/Lab1/CompetencyOne/bin/Debug/net8.0/CompetencyOne.pdb
+/Users/corn/ProgrammingLogic/CompetencyLabs/Lab1/CompetencyOne/obj/Debug/net8.0/CompetencyOne.GeneratedMSBuildEditorConfig.editorconfig
+/Users/corn/ProgrammingLogic/CompetencyLabs/Lab1/CompetencyOne/obj/Debug/net8.0/CompetencyOne.AssemblyInfoInputs.cache
+/Users/corn/ProgrammingLogic/CompetencyLabs/Lab1/CompetencyOne/obj/Debug/net8.0/CompetencyOne.AssemblyInfo.cs
+/Users/corn/ProgrammingLogic/CompetencyLabs/Lab1/CompetencyOne/obj/Debug/net8.0/CompetencyOne.csproj.CoreCompileInputs.cache
+/Users/corn/ProgrammingLogic/CompetencyLabs/Lab1/CompetencyOne/obj/Debug/net8.0/CompetencyOne.sourcelink.json
+/Users/corn/ProgrammingLogic/CompetencyLabs/Lab1/CompetencyOne/obj/Debug/net8.0/CompetencyOne.dll
+/Users/corn/ProgrammingLogic/CompetencyLabs/Lab1/CompetencyOne/obj/Debug/net8.0/refint/CompetencyOne.dll
+/Users/corn/ProgrammingLogic/CompetencyLabs/Lab1/CompetencyOne/obj/Debug/net8.0/CompetencyOne.pdb
+/Users/corn/ProgrammingLogic/CompetencyLabs/Lab1/CompetencyOne/obj/Debug/net8.0/CompetencyOne.genruntimeconfig.cache
+/Users/corn/ProgrammingLogic/CompetencyLabs/Lab1/CompetencyOne/obj/Debug/net8.0/ref/CompetencyOne.dll
