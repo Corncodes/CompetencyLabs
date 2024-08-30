@@ -30,6 +30,7 @@ namespace LabOne
         int inputInt = Convert.ToInt16(inputStr);
         double withTax = inputInt * 1.08;
         Console.Write("The total price with tax is " + withTax);
+
         /* Use the increment operator to increment to add 1 to the number below and output the result. */
         int number = 4358;
         int numbers = number++;
