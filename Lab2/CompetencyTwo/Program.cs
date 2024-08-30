@@ -22,13 +22,17 @@ namespace LabOne
         /* Create a variable called name. Assign your name to it. Create a variable called major. Assign your major to the variable called major. Use string interpolation ($) to Output: [Your name]'s major is [major]. Example: student named John Smith whose major is Programming will output John's major is programming.*/
         string name = "Cornell";
         string major = "Computer Science";
-        Console.WriteLine(name + " " + "is majoring in" + " " + major );
+        Console.WriteLine($"{name} is majoring in {major} " );
 
         /* Use the following given code Console.Write("Please enter the price: "); to prompt a user to enter a value in the console. Use the code string inputstr = Console.ReadLine( ); to read in a variable (whole numbers only) from the console. Then convert the variable inputstr to an integer value and assign it to an int variable called inputint. Then multiply inputint by 1.08 and output "The total price with tax is " + inputint (use the concatenation operator +). */
-
+        Console.Write("Please enter the price: ");
+        string inputStr = Console.ReadLine();
+        int inputInt = Convert.ToInt16(inputStr);
+        double withTax = inputInt * 1.08;
+        Console.Write("The total price with tax is " + withTax);
         /* Use the increment operator to increment to add 1 to the number below and output the result. */
         int number = 4358;
-        int numbers = number + 1;
+        int numbers = number++;
         Console.WriteLine(numbers);
 
         /* Create a string variable called season and assign your favorite season to it. Concatenate it to the following string using string interpolation($) and output the value. */
@@ -58,14 +62,13 @@ namespace LabOne
         double d = 1.8D;
         double m = 2.3D;
         double s = 12.2D;
-        Console.WriteLine(d*m+(s*3)+4);
+        Console.WriteLine(d * m + (s*3) + 4 * m);
 
         /* Convert the address to all uppercase and output the value using a single Console.WriteLine() statement and the newline escape sequence, so each variable is on a separate line */
         string addr1 = "11000 W Pleasant Valley Road";
         string addr2 = "Parma,Oh";
         string addr3 = "44130";
-         //Console.WriteLine(addr1.ToUpper() + "/n" + addr2.ToUpper() + "/n"  + addr3.ToUpper());
-
+        Console.WriteLine(addr1.ToUpper() + "\n" + addr2.ToUpper() + "\n"  + addr3.ToUpper());
         }
     }
 }
