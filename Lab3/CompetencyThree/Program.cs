@@ -93,7 +93,6 @@ namespace LabThree
         else if (number == 3)
         {
             Console.WriteLine("You won a mouse");
-
         }
         else if (number == 4)
         {
