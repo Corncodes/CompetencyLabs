@@ -1,0 +1,15 @@
+/Users/corn/ProgrammingLogic/CompetencyLabs/Lab3/CompetencyThree/obj/Debug/net8.0/CompetencyThree.GeneratedMSBuildEditorConfig.editorconfig
+/Users/corn/ProgrammingLogic/CompetencyLabs/Lab3/CompetencyThree/obj/Debug/net8.0/CompetencyThree.AssemblyInfoInputs.cache
+/Users/corn/ProgrammingLogic/CompetencyLabs/Lab3/CompetencyThree/obj/Debug/net8.0/CompetencyThree.AssemblyInfo.cs
+/Users/corn/ProgrammingLogic/CompetencyLabs/Lab3/CompetencyThree/obj/Debug/net8.0/CompetencyThree.csproj.CoreCompileInputs.cache
+/Users/corn/ProgrammingLogic/CompetencyLabs/Lab3/CompetencyThree/obj/Debug/net8.0/CompetencyThree.sourcelink.json
+/Users/corn/ProgrammingLogic/CompetencyLabs/Lab3/CompetencyThree/bin/Debug/net8.0/CompetencyThree
+/Users/corn/ProgrammingLogic/CompetencyLabs/Lab3/CompetencyThree/bin/Debug/net8.0/CompetencyThree.deps.json
+/Users/corn/ProgrammingLogic/CompetencyLabs/Lab3/CompetencyThree/bin/Debug/net8.0/CompetencyThree.runtimeconfig.json
+/Users/corn/ProgrammingLogic/CompetencyLabs/Lab3/CompetencyThree/bin/Debug/net8.0/CompetencyThree.dll
+/Users/corn/ProgrammingLogic/CompetencyLabs/Lab3/CompetencyThree/bin/Debug/net8.0/CompetencyThree.pdb
+/Users/corn/ProgrammingLogic/CompetencyLabs/Lab3/CompetencyThree/obj/Debug/net8.0/CompetencyThree.dll
+/Users/corn/ProgrammingLogic/CompetencyLabs/Lab3/CompetencyThree/obj/Debug/net8.0/refint/CompetencyThree.dll
+/Users/corn/ProgrammingLogic/CompetencyLabs/Lab3/CompetencyThree/obj/Debug/net8.0/CompetencyThree.pdb
+/Users/corn/ProgrammingLogic/CompetencyLabs/Lab3/CompetencyThree/obj/Debug/net8.0/CompetencyThree.genruntimeconfig.cache
+/Users/corn/ProgrammingLogic/CompetencyLabs/Lab3/CompetencyThree/obj/Debug/net8.0/ref/CompetencyThree.dll
