@@ -84,16 +84,15 @@ namespace LabFour
             Console.WriteLine("Proud of your resilience, you have guessed the correct number!");
 
             // 8. Use a for loop to output the sum of odd integers from 1 to 50.
-
-            // for (int s = 0, sum = 0; s <= 50; s++)
-            // {
-            //     if (s % 2 == 1)
-            //     {
-            //         sum += s;
-            //         Console.Write("sum equals" + sum);
-            //     }
-            // }
-            // Console.WriteLine();
+            int sum = 0;
+            for (int s = 0; s <= 50; s++)
+            {
+                if (s % 2 == 1)
+                {
+                    sum += s;
+                }
+            }
+            Console.WriteLine("Your sum of odd numbers is " + sum);
 
             // 9. Use a while loop to output the following – 5 rows with 10 asterisks on each line
 
