@@ -1,0 +1,15 @@
+/Users/corn/ProgrammingLogic/CompetencyLabs/Lab6/CompetencySix/bin/Debug/net8.0/CompetencySix
+/Users/corn/ProgrammingLogic/CompetencyLabs/Lab6/CompetencySix/bin/Debug/net8.0/CompetencySix.deps.json
+/Users/corn/ProgrammingLogic/CompetencyLabs/Lab6/CompetencySix/bin/Debug/net8.0/CompetencySix.runtimeconfig.json
+/Users/corn/ProgrammingLogic/CompetencyLabs/Lab6/CompetencySix/bin/Debug/net8.0/CompetencySix.dll
+/Users/corn/ProgrammingLogic/CompetencyLabs/Lab6/CompetencySix/bin/Debug/net8.0/CompetencySix.pdb
+/Users/corn/ProgrammingLogic/CompetencyLabs/Lab6/CompetencySix/obj/Debug/net8.0/CompetencySix.GeneratedMSBuildEditorConfig.editorconfig
+/Users/corn/ProgrammingLogic/CompetencyLabs/Lab6/CompetencySix/obj/Debug/net8.0/CompetencySix.AssemblyInfoInputs.cache
+/Users/corn/ProgrammingLogic/CompetencyLabs/Lab6/CompetencySix/obj/Debug/net8.0/CompetencySix.AssemblyInfo.cs
+/Users/corn/ProgrammingLogic/CompetencyLabs/Lab6/CompetencySix/obj/Debug/net8.0/CompetencySix.csproj.CoreCompileInputs.cache
+/Users/corn/ProgrammingLogic/CompetencyLabs/Lab6/CompetencySix/obj/Debug/net8.0/CompetencySix.sourcelink.json
+/Users/corn/ProgrammingLogic/CompetencyLabs/Lab6/CompetencySix/obj/Debug/net8.0/CompetencySix.dll
+/Users/corn/ProgrammingLogic/CompetencyLabs/Lab6/CompetencySix/obj/Debug/net8.0/refint/CompetencySix.dll
+/Users/corn/ProgrammingLogic/CompetencyLabs/Lab6/CompetencySix/obj/Debug/net8.0/CompetencySix.pdb
+/Users/corn/ProgrammingLogic/CompetencyLabs/Lab6/CompetencySix/obj/Debug/net8.0/CompetencySix.genruntimeconfig.cache
+/Users/corn/ProgrammingLogic/CompetencyLabs/Lab6/CompetencySix/obj/Debug/net8.0/ref/CompetencySix.dll
