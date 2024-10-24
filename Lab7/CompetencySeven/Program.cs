@@ -1,22 +1,85 @@
 ﻿using System;
 
-namespace MyNamespace
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, World!");
-        }
-    }
-}
+//LabSevenCode
+//Step 1 - Add name, the course number, and the course CRN as a comment at the beginning of the code. Use either single line or multi-line comment syntax.
 
-// 1. Add name, the course number, and the course CRN as a comment at the beginning of the code. Use either single line or multi-line comment syntax.
-// 2. Add exception handling to make sure dividing by 0 does not crash the program.
-// 3. Change the value of num2 from 10 to 0 to show that your exception handling was done correctly. This line should output results of your exception handling.
-// 4. Add a constructor method that accepts 2 parameters: isbn and title. Assign the parameters values to the class properties.
-// 5. Add a constructor method that accepts 4 parameters: isbn, title, author, year. Assign the parameters values to the class properties.
-// 6. Add a constructor method that accepts 6 parameters (isbn, title, author, publisher, year, pages) and assigns values to all of the properties of the class. Assign the parameters values to the class properties.
-// 7. Uncomment the lines that start with Book book2 = new Book("978-0134601540", "Visual C# How to Program"); and end with book2.Display(); to display details for book2.
-// 8. Uncomment the lines that start with Book book3 = new Book("978-1337102100", "Microsoft Visual C#: An Introduction to Object-Oriented Programming ", "Joyce Farrell",  2017); and end with book3.Display(); to display details for book3.
-// 9. Uncomment the lines that start with Book book4 = new Book("978-0135181966", "The Object-Oriented Thought Process", "Matt Weisfeld", "Addison-Wesley", 2019, 240); and end with book4.Display(); to display details for book4.
+//Before you start adding your code, run the code first to see the output generated
+namespace LabSeven
+{
+  class Program
+  {
+     public static void Main (string[] args)
+     {
+    	int a = 20, b = 2;
+   	int result = a / b ;
+   	Console.WriteLine($"{a} divided by {b} is {result}");
+
+      	int quotient, num1, num2;
+      	num1 = 40;
+	//Step 3 - After completing step 2, change the value of num2 to 0 to test your exception handling
+      	num2 = 10;
+  	// Step 2 - Add exception handling to make sure dividing by 0 does not crash the program.
+
+       	quotient = num1 / num2;
+       	Console.WriteLine($"{num1} divided by {num2} is {quotient}");
+
+
+    	Book book1 = new Book();
+    	book1.Display();
+
+    	/* Step 7 - After completing step 4 below, you should be able to uncomment the following lines: */
+	/*    Book book2 = new Book("978-0134601540", "Visual C# How to Program");
+	      book2.author = "Paul Deitel and Harvey Deitel";
+	      book2.publisher = "Pearson";
+              book2.year = 2016;
+              book2.pages = 1056;
+              book2.Display();   */
+
+       /* Step 8 - After completing step 5 below, you should be able to uncomment the following lines: */
+       /*  Book book3 = new Book("978-1337102100", "Microsoft Visual C#: An Introduction to Object-Oriented Programming ", "Joyce Farrell",  2017);
+           book3.publisher = "Cengage Learning";
+           book3.pages = 784;
+           book3.Display(); */
+
+       /* Step 9 - After completing step 6 below, you should be able to uncomment the following lines: */
+      /*   Book book4 = new Book("978-0135181966", "The Object-Oriented Thought Process", "Matt Weisfeld", "Addison-Wesley", 2019, 240);
+           book4.Display();  */
+    } //end of Main
+  } //end of class Program
+
+  class Book   //start of class Book definition
+  {
+  	private string isbn;
+  	private string title;
+  	public string author;
+  	public string publisher;
+  	public int year;
+  	public int pages;
+
+  	//constructor method for the Book class
+  	//this constructor accepts no arguments; empty constructor
+  	//leave the next two following lines alone; make no changes here
+ 	public Book()
+ 	{  }
+
+ 	// Step 4 - Add a constructor method that accepts 2 parameters: isbn and title. Assign the parameters values to the class properties.
+
+
+
+	// Step 5 - Add a constructor method that accepts 4 parameters: isbn, title, author, year. Assign the parameters values to the class properties.
+
+
+
+
+	// Step 6 - Add a constructor method that accepts 6 parameters (isbn, title, author, publisher, year, pages) and assigns values to all of the properties of the class. Assign the parameters 	values to the class properties.
+
+
+
+	//leave following lines alone;  make no changes here
+  	public void Display()
+	{
+    	    Console.WriteLine($"Book Details:\nISBN: {isbn}\nTitle: {title}\nAuthor: {author}\nPublisher: {publisher}\nYear: {year}\nPages: {pages}\n ");
+   	}
+
+    }       //end of class Book definition
+} //end of namespace LabSeven
