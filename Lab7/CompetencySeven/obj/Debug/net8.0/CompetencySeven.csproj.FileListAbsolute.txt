@@ -1,0 +1,15 @@
+/Users/corn/ProgrammingLogic/CompetencyLabs/Lab7/CompetencySeven/obj/Debug/net8.0/CompetencySeven.GeneratedMSBuildEditorConfig.editorconfig
+/Users/corn/ProgrammingLogic/CompetencyLabs/Lab7/CompetencySeven/obj/Debug/net8.0/CompetencySeven.AssemblyInfoInputs.cache
+/Users/corn/ProgrammingLogic/CompetencyLabs/Lab7/CompetencySeven/obj/Debug/net8.0/CompetencySeven.AssemblyInfo.cs
+/Users/corn/ProgrammingLogic/CompetencyLabs/Lab7/CompetencySeven/obj/Debug/net8.0/CompetencySeven.csproj.CoreCompileInputs.cache
+/Users/corn/ProgrammingLogic/CompetencyLabs/Lab7/CompetencySeven/obj/Debug/net8.0/CompetencySeven.sourcelink.json
+/Users/corn/ProgrammingLogic/CompetencyLabs/Lab7/CompetencySeven/bin/Debug/net8.0/CompetencySeven
+/Users/corn/ProgrammingLogic/CompetencyLabs/Lab7/CompetencySeven/bin/Debug/net8.0/CompetencySeven.deps.json
+/Users/corn/ProgrammingLogic/CompetencyLabs/Lab7/CompetencySeven/bin/Debug/net8.0/CompetencySeven.runtimeconfig.json
+/Users/corn/ProgrammingLogic/CompetencyLabs/Lab7/CompetencySeven/bin/Debug/net8.0/CompetencySeven.dll
+/Users/corn/ProgrammingLogic/CompetencyLabs/Lab7/CompetencySeven/bin/Debug/net8.0/CompetencySeven.pdb
+/Users/corn/ProgrammingLogic/CompetencyLabs/Lab7/CompetencySeven/obj/Debug/net8.0/CompetencySeven.dll
+/Users/corn/ProgrammingLogic/CompetencyLabs/Lab7/CompetencySeven/obj/Debug/net8.0/refint/CompetencySeven.dll
+/Users/corn/ProgrammingLogic/CompetencyLabs/Lab7/CompetencySeven/obj/Debug/net8.0/CompetencySeven.pdb
+/Users/corn/ProgrammingLogic/CompetencyLabs/Lab7/CompetencySeven/obj/Debug/net8.0/CompetencySeven.genruntimeconfig.cache
+/Users/corn/ProgrammingLogic/CompetencyLabs/Lab7/CompetencySeven/obj/Debug/net8.0/ref/CompetencySeven.dll
