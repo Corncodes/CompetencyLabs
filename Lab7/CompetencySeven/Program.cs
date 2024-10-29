@@ -1,4 +1,8 @@
 ﻿using System;
+using System.Net;
+using System.Reflection;
+using System.Runtime.InteropServices;
+using Microsoft.VisualBasic;
 
 //LabSevenCode
 //Step 1 - Add name, the course number, and the course CRN as a comment at the beginning of the code. Use either single line or multi-line comment syntax.
@@ -36,33 +40,33 @@ namespace LabSeven
 
     	Book book1 = new Book();
     	book1.Display();
-
     	/* Step 7 - After completing step 4 below, you should be able to uncomment the following lines: */
-	/*    Book book2 = new Book("978-0134601540", "Visual C# How to Program");
-	      book2.author = "Paul Deitel and Harvey Deitel";
-	      book2.publisher = "Pearson";
-            book2.year = 2016;
-              book2.pages = 1056;
-              book2.Display();   */
+	    Book book2 = new Book("978-0134601540", "Visual C# How to Program");
+	    book2.author = "Paul Deitel and Harvey Deitel";
+	    book2.publisher = "Pearson";
+        book2.year = 2016;
+        book2.pages = 1056;
+        book2.Display();
 
        /* Step 8 - After completing step 5 below, you should be able to uncomment the following lines: */
-       /*  Book book3 = new Book("978-1337102100", "Microsoft Visual C#: An Introduction to Object-Oriented Programming ", "Joyce Farrell",  2017);
-           book3.publisher = "Cengage Learning";
-           book3.pages = 784;
-           book3.Display(); */
+         Book book3 = new Book("978-1337102100", "Microsoft Visual C#: An Introduction to Object-Oriented Programming ", "Joyce Farrell",  2017);
+        book3.publisher = "Cengage Learning";
+        book3.pages = 784;
+        book3.Display();
 
        /* Step 9 - After completing step 6 below, you should be able to uncomment the following lines: */
-      /*   Book book4 = new Book("978-0135181966", "The Object-Oriented Thought Process", "Matt Weisfeld", "Addison-Wesley", 2019, 240);
-           book4.Display();  */
+         Book book4 = new Book("978-0135181966", "The Object-Oriented Thought Process", "Matt Weisfeld", "Addison-Wesley", 2019, 240);
+        book4.Display();
     } //end of Main
   } //end of class Program
 
   class Book   //start of class Book definition
   {
-  	private string isbn ="";
-  	private string title="";
-  	public string author="";
-  	public string publisher="";
+
+  	private string isbn = string.Empty ; // kept getting error that mentioned non-nullable values so this is my way of fixing that
+  	private string title = string.Empty;
+  	public string author = string.Empty;
+  	public string publisher = string.Empty;
   	public int year = 0;
   	public int pages = 0;
 
@@ -70,26 +74,40 @@ namespace LabSeven
   	//this constructor accepts no arguments; empty constructor
   	//leave the next two following lines alone; make no changes here
  	public Book()
- 	{  }
+ 	{}
 
  	// Step 4 - Add a constructor method that accepts 2 parameters: isbn and title. Assign the parameters values to the class properties.
-
-
+    public Book (string isbn, string title )
+    {
+        this.isbn = isbn;
+        this.title = title;
+    }
 
 	// Step 5 - Add a constructor method that accepts 4 parameters: isbn, title, author, year. Assign the parameters values to the class properties.
-
-
+    public Book(string isbn, string title, string author, int year)
+    {
+        this.isbn = isbn;
+        this.title = title;
+        this.author = author;
+        this.year = year;
+    }
 
 
 	// Step 6 - Add a constructor method that accepts 6 parameters (isbn, title, author, publisher, year, pages) and assigns values to all of the properties of the class. Assign the parameters values to the class properties.
-
-
-
+    public Book(string isbn, string title, string author,string publisher, int year, int pages)
+    {
+        this.isbn = isbn;
+        this.title = title;
+        this.author = author;
+        this.publisher = publisher;
+        this.year = year;
+        this.pages = pages;
+    }
 	//leave following lines alone;  make no changes here
-  	public void Display()
+    public void Display()
 	{
-    	    Console.WriteLine($"Book Details:\nISBN: {isbn}\nTitle: {title}\nAuthor: {author}\nPublisher: {publisher}\nYear: {year}\nPages: {pages}\n ");
-   	}
+    Console.WriteLine($"Book Details:\nISBN: {isbn}\nTitle: {title}\nAuthor: {author}\nPublisher: {publisher}\nYear: {year}\nPages: {pages}\n ");
+    }
 
     }       //end of class Book definition
 } //end of namespace LabSeven
